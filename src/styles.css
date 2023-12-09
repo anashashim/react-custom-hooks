@@ -1,0 +1,40 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.image-box {
+  width: 60%;
+  min-height: 100px;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 1px 0px 10px rgba(50, 21, 45, 0.2);
+  overflow: hidden;
+  padding: 10px;
+}
+
+.loading {
+  text-align: center;
+  line-height: 100px;
+}
+
+.image-box img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.content {
+  padding-top: 20px;
+}
+
+button {
+  width: 100px;
+  background-color: rgb(160, 91, 225);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
